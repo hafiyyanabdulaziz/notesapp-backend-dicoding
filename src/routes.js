@@ -1,4 +1,4 @@
-import { addNoteHandler, getAllNotesHandler, getNoteByIdHandler } from "./handler.js";
+import { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler } from "./handler.js";
 
 
 const routes = [
@@ -16,6 +16,11 @@ const routes = [
         method: 'GET',
         path: '/notes/{id}',
         handler: getNoteByIdHandler
+    },
+    {
+        method: 'PUT',
+        path: '/notes/{id}',
+        handler: editNoteByIdHandler
     },
 ];
 
