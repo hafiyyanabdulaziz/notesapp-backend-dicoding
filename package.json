@@ -1,0 +1,23 @@
+{
+  "name": "notesapp-backend-dicoding",
+  "version": "1.0.0",
+  "description": "Latihan Belajar Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafiyyanabdulaziz/notesapp-backend-dicoding.git"
+  },
+  "keywords": [
+    "backend",
+    "dicoding"
+  ],
+  "author": "Hafiyyan Abdul Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafiyyanabdulaziz/notesapp-backend-dicoding/issues"
+  },
+  "homepage": "https://github.com/hafiyyanabdulaziz/notesapp-backend-dicoding#readme"
+}
